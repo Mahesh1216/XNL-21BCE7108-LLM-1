@@ -42,7 +42,7 @@ This project is an end-to-end, high-frequency trading system integrating AI, rea
 - 📊 **Live Market Data & Financial News Scraping**
   - Implemented real-time data ingestion for **stocks, crypto, forex**.
   - Financial news scraping (Bloomberg, Reuters).
-- 🤖 **Multi-Agent Financial Decision System** (Partially Implemented)
+- 🤖 **Multi-Agent Financial Decision System** (5 Agents Implemented)
   - **Market Data Aggregator** → Scrapes & structures financial news data.
   - **LLM Market Sentiment Analyzer** → Uses Hugging Face/OpenAI API.
   - **Risk Assessment Agent, Trade Execution AI, Fraud Detection Agent**.
@@ -59,7 +59,7 @@ This project is an end-to-end, high-frequency trading system integrating AI, rea
   - A/B testing for **LSTMs & ARIMA**.
 - 🔄 **Multi-Asset Trading Support** (Crypto - BTC/USDT Implemented).
 
-### ✅ **Phase 3: Full-Stack FinTech UI & Monitoring Dashboard** (Partially Implemented)
+### ✅ **Phase 3: Full-Stack FinTech UI & Monitoring Dashboard** 
 - 🌐 **Frontend (Next.js + Tailwind CSS)**
   - **Live stock/crypto charts & market tracking**.
   - **Trade execution panel & order book**.
@@ -82,6 +82,7 @@ pip install fastapi python-binance psycopg2 redis neo4j openai transformers yfin
 - **Yahoo Finance API**
 - **Binance API**
 - **Hugging Face API**
+- **News API**
 
 ---
 
