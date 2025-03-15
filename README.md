@@ -23,4 +23,45 @@ Risk Assessment Agent, Trade Execution AI, Fraud Detection Agent Advanced Fraud 
 Graph-Based Anomaly Detection using Neo4j (Setup in progress, connection issue pending fix)
 
 
+✅ Phase 2: AI-Powered Trading Engine & Strategy Testing AI Trading System with Sentiment & Technical Analysis  
+Implemented Trading Bot with:
+Technical Indicators: RSI, MACD, Bollinger Bands
+AI Sentiment Analysis: Hugging Face NLP for news-driven trading
+Real-Time Execution: Binance API for automated order placement
+
+
+completed Backtesting & Strategy Optimization
+Implemented:
+Vectorized backtesting with historical data
+Performance tracking using Sharpe Ratio, Drawdown metrics
+A/B Testing for ML models (LSTM & ARAMAI)
+
+Multi-Asset Trading Support (Implemented for Crypto - BTC/USDT)
+
+✅ Phase 3: Full-Stack FinTech UI & Monitoring Dashboard (Partially Implemented) ( its in master branch )
+
+Frontend Development (Next.js + Tailwind CSS)
+Developed: Live stock/crypto charts & market data tracking
+ Trade Execution Panel & Order Book  
+Database & Logging Setup (Partially Implemented)
+
+Database for trade history (PostgreSQL) successfully initialized
+Logging & Error Monitoring setup in progress
+
+
+Prerequisites : 
+python = 3.13  
+FastAPI: pip install fastapi  
+Binance API SDK: pip install python-binance  
+Database (PostgreSQL, Redis, Neo4j): pip install psycopg2 redis neo4j  
+AI/ML (Hugging Face & OpenAI): pip install openai transformers  
+Financial Data (Yahoo Finance, Pandas, NumPy): pip install yfinance pandas numpy  
+Visualization & Logging: pip install matplotlib seaborn loguru  
+
+API KEYS :  
+Yahoo Finance API   
+Binance API     
+Hugging Face API
+
+For UI please go to the master branch 
 
