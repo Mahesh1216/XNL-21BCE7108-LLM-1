@@ -2,11 +2,19 @@
 🚀 Welcome to the AI-Powered FinTech LLM Trading System!
 This project is an end-to-end, high-frequency trading system integrating AI,real-time market monitoring ,focusing on financial data processing, fraud detection, and trading strategy optimization.
 
+Explanation of phases:  
+Phase-1 : implemented LLM-powered sentiment analysis to predict market trends using news and social media data. Real-time market data ingestion was set up using Yahoo Finance, Binance API, and Alpha Vantage to fetch stock/crypto updates. A multi-agent financial decision system was built with AI agents for risk assessment, trade execution, and fraud detection. Neo4j-based graph anomaly detection was introduced to detect suspicious trading activities. This phase ensures data-driven trading decisions and regulatory compliance.
+
+Phase-2 : A technical + sentiment-based AI trading strategy was developed using Moving Averages, RSI, and MACD indicators. Backtesting was implemented with historical stock/crypto data to validate strategy performance before real trading. The Binance API was integrated to execute live trades based on AI predictions, ensuring high-frequency trade execution. Portfolio optimization using Markowitz MPT and reinforcement learning was explored for intelligent asset allocation. This phase ensures real-time AI-driven trading decisions.
+
+phase- 3 : A Next.js + Tailwind CSS trading dashboard was built to visualize real-time stock/crypto charts and portfolio performance. Secure user authentication (OAuth2, JWT, MFA) was implemented to protect financial transactions. A WebSockets-powered trade execution UI ensures lightning-fast order placements with sub-1ms latency. A compliance dashboard with blockchain-based audit logs was introduced for SEC & financial regulation tracking. This phase provides an intuitive and secure interface for traders.
+
 Tech Stack :  
 ✅ Backend: Python, FastAPI, WebSockets, Binance API, Neo4j, PostgreSQL  
 ✅ Frontend: Next.js, Tailwind CSS  
 ✅ AI/ML: Hugging Face, OpenAI GPT, XGBoost, LSTMs  
 ✅ Security & Compliance: OAuth2, JWT, Blockchain-based Audit Logs
+
 
 
 ✅ Phase 1: FinTech LLM Architecture & Data Ingestion    
@@ -64,8 +72,3 @@ Binance API
 Hugging Face API
 
 For UI please go to the master branch 
-
-Explanation of phases:
-Phase -1 : implemented LLM-powered sentiment analysis to predict market trends using news and social media data. Real-time market data ingestion was set up using Yahoo Finance, Binance API, and Alpha Vantage to fetch stock/crypto updates. A multi-agent financial decision system was built with AI agents for risk assessment, trade execution, and fraud detection. Neo4j-based graph anomaly detection was introduced to detect suspicious trading activities. This phase ensures data-driven trading decisions and regulatory compliance.
-
-Phase-2 : 
