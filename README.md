@@ -72,3 +72,4 @@ Binance API
 Hugging Face API
 
 For UI please go to the master branch 
+For funtioning tradebot please run tradebot.py 
