@@ -65,3 +65,7 @@ Hugging Face API
 
 For UI please go to the master branch 
 
+Explanation of phases:
+Phase -1 : implemented LLM-powered sentiment analysis to predict market trends using news and social media data. Real-time market data ingestion was set up using Yahoo Finance, Binance API, and Alpha Vantage to fetch stock/crypto updates. A multi-agent financial decision system was built with AI agents for risk assessment, trade execution, and fraud detection. Neo4j-based graph anomaly detection was introduced to detect suspicious trading activities. This phase ensures data-driven trading decisions and regulatory compliance.
+
+Phase-2 : 
