@@ -1,3 +1,31 @@
+📌 Installation & Setup
+  
+1️⃣ Backend Setup
+git clone https://github.com/your-repo/fintech-trading-system.git
+cd fintech-trading-system/backend
+
+/Create Virtual Environment
+python -m venv env
+source env/bin/activate  # On Windows use `env\Scripts\activate`
+
+/Install Dependencies
+pip install -r requirements.txt
+
+/Start API Server
+uvicorn main:app --reload
+  
+2️⃣ Frontend Setup
+bash
+Copy
+Edit
+cd fintech-trading-system/frontend
+npm install
+npm run dev
+## 3️⃣ Database Setup
+''''bash  
+psql -U postgres -c "CREATE DATABASE fintech_db;"
+'''
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
